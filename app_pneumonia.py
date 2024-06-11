@@ -7,7 +7,7 @@ from keras.models import load_model
 from keras.preprocessing import image
 
 # Carregar o modelo treinado
-model = load_model('modelo_vgg16_treinado.h5')
+model = load_model('modelo_vgg16_pneumonia.h5')
 
 # Função para fazer previsões e mostrar a matriz de confusão
 def predict_and_show_confusion_matrix(img):
